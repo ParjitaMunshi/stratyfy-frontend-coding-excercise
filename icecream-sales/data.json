@@ -1,0 +1,32 @@
+[
+  {
+    "flavor": "vanilla",
+    "toppings": "fudge",
+    "sales": 12968
+  },
+  {
+    "flavor": "vanilla",
+    "toppings": "candy",
+    "sales": 14305
+  },
+  {
+    "flavor": "chocolate",
+    "toppings": "fudge",
+    "sales": 20457
+  },
+  {
+    "flavor": "chocolate",
+    "toppings": "candy",
+    "sales": 16717
+  },
+  {
+    "flavor": "strawberry",
+    "toppings": "fudge",
+    "sales": 21925
+  },
+  {
+    "flavor": "strawberry",
+    "toppings": "candy",
+    "sales": 12567
+  }
+]
