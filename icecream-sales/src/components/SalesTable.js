@@ -1,5 +1,5 @@
 import React from 'react';
-import './SalesTable.css';
+import './SalesTable.css'
 
 const SalesTable = ({ salesData, selectedFlavor, selectedTopping }) => {
   const filteredData = salesData.filter(item => {

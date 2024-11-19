@@ -1,18 +1,16 @@
-/* General App Styling */
+
 .App {
   text-align: center;
   padding: 30px;
   font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa; /* Light grey background */
+  background-color: #f8f9fa; 
 }
 
-/* Heading Styling */
 h1 {
-  color: #343a40; /* Dark grey color */
+  color: #343a40; 
   margin-bottom: 30px;
 }
 
-/* Filters Section */
 .filters {
   display: flex;
   justify-content: center;
@@ -20,32 +18,30 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Dropdown Styling */
 select {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #007bff; /* Blue border */
+  border: 1px solid #007bff; 
   border-radius: 8px;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 select:focus {
-  border-color: #0056b3; /* Darker blue on focus */
+  border-color: #0056b3; 
   outline: none;
 }
 
 select:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Button Styling */
 button.reset-button {
   padding: 10px 20px;
   font-size: 16px;
   margin-top: 20px;
   cursor: pointer;
-  background-color: #28a745; /* Green background */
+  background-color: #28a745; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -53,18 +49,17 @@ button.reset-button {
 }
 
 button.reset-button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Table Styling */
 .sales-table {
   width: 80%;
   margin: 0 auto;
   border-collapse: collapse;
   margin-top: 20px;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .sales-table th,
@@ -75,7 +70,7 @@ button.reset-button:hover {
 }
 
 .sales-table th {
-  background-color: #007bff; /* Blue header */
+  background-color: #007bff;
   color: white;
 }
 
