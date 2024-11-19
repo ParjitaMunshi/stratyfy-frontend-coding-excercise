@@ -1,6 +1,9 @@
+//Displays the sales data in a table format, highlights matching rows, and calculates totals.
 import React from 'react';
 import './SalesTable.css'
 
+
+//Filters the salesData array based on the selected flavor and topping.
 const SalesTable = ({ salesData, selectedFlavor, selectedTopping }) => {
   const filteredData = salesData.filter(item => {
     return (
@@ -9,6 +12,7 @@ const SalesTable = ({ salesData, selectedFlavor, selectedTopping }) => {
     );
   });
 
+  //reduce() -> to sum up the sales fields.
   const totalSales = filteredData.reduce((acc, item) => acc + item.sales, 0);
 
   return (
